@@ -1,0 +1,22 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+        7
+       / \
+      5   8 
+    /   \   \ 
+   1     6   9 
+  /  \ 
+ 0    3        
+    /  \
+   2     4
+
+Root 7 dir.
+İkinci eleman 5 root dan küçük olduğu için sol eleman olur.
+Üçüncü eleman 1 root'dan ve 5'ten küçük olduğu için 5'in sol elemanı olur.
+Dürdüncü eleman 8 root'dan büyük olduğu içi root'un sağ elemanı olur.
+Beşinci eleman 3 7 ve 5'ten küçük 1'den büyük olduğu için 1'in sağ elemanı olur.
+Altıncı eleman  6 7'den küçük 5'ten büyük olduğu için 5'in sağ elemanı olur.
+Yedinci eleman 0 1 den küçük olduğu için 1'in sol elemanı olur.
+Sekizinci eleman 9 8'den büyük olduğu için 8'in sağ elemanı olur.
+Dokuzuncu eleman 4 3'den büyük olduğu için 3'ün sağ elemanı olur.
+Onuncu eleman 2 3'den küçük olduğu için 3'ün sol tarafında bulunur.
